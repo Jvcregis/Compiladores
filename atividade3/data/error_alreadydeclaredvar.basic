@@ -1,0 +1,4 @@
+PROGRAM AlreadyDeclaredVariable BEGIN
+    DECL y : INT
+    DECL y : INT
+ENDPROGRAM

@@ -1,0 +1,54 @@
+PROGRAM BlockTest BEGIN
+    DECL i : INT
+    INPUT i
+    DECL b : BOOLEAN
+    LET b = i > 50
+    DECL s : STRING
+    INPUT s
+
+    BLOCK b0 BEGIN
+        DECL i : INT
+        INPUT i
+        DECL b : STRING
+        INPUT b
+        DECL s : BOOLEAN
+        INPUT s        
+    ENDBLOCK
+
+    BLOCK b1 BEGIN
+        DECL i : BOOLEAN
+        INPUT i
+        DECL b : INT
+        INPUT b
+        DECL s : STRING
+        INPUT s        
+    ENDBLOCK
+
+    BLOCK b2 BEGIN
+        DECL i : BOOLEAN
+        INPUT i
+        DECL b : STRING
+        INPUT b
+        DECL s : INT
+        INPUT s        
+    ENDBLOCK
+
+    BLOCK b3 BEGIN
+        DECL i : STRING
+        INPUT i
+        DECL b : INT
+        INPUT b
+        DECL s : BOOLEAN
+        INPUT s        
+    ENDBLOCK
+
+    BLOCK b4 BEGIN
+        DECL i : STRING
+        INPUT i
+        DECL b : BOOLEAN
+        INPUT b
+        DECL s : INT
+        INPUT s        
+    ENDBLOCK
+
+ENDPROGRAM

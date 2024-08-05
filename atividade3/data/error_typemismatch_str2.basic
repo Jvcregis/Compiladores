@@ -1,0 +1,7 @@
+PROGRAM VarTypeMismatch BEGIN
+    DECL s : STRING
+    LET s = "Test"
+    DECL i : INT
+    LET i = 100
+    LET s = i
+ENDPROGRAM

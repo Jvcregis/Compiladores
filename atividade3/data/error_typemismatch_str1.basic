@@ -1,0 +1,6 @@
+PROGRAM VarTypeMismatch BEGIN
+    DECL s : STRING
+    DECL b : BOOLEAN
+    INPUT b
+    LET s = b
+ENDPROGRAM

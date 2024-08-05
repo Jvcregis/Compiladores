@@ -1,0 +1,6 @@
+PROGRAM VarTypeMismatch BEGIN
+    DECL y : INT
+    LET y = 500
+    DECL b : BOOLEAN
+    LET b = y 
+ENDPROGRAM

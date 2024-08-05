@@ -1,0 +1,4 @@
+PROGRAM VarTypeMismatch BEGIN
+    DECL b : BOOLEAN
+    LET b = "True"
+ENDPROGRAM

@@ -1,0 +1,4 @@
+PROGRAM VarTypeMismatch BEGIN
+    DECL y : INT
+    LET y = "500"
+ENDPROGRAM
